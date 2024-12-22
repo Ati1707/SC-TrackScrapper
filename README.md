@@ -1,5 +1,5 @@
 # SoundCloud Track Scrapper
-This script allows you to check the followers of a SoundCloud user and get the track count.  
+This tool allows scrapes the followers of a SoundCloud user and gets their track count.  
 If a follower has tracks, their track url and the first 5 tracks will be printed to the console and added to a database to avoid being checked again in the future.
 
 ## Usage
