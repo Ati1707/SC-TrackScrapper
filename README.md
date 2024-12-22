@@ -20,3 +20,5 @@ https://soundcloud.com/billieeilish
 or  
 https://soundcloud.com/billieeilish/sets  
 the text after the username gets ignored so you dont need to copy url from the mainpage
+
+It might seem like the tool does nothing when entering the user url but it is scrapping the followers. The higher the count the longer it will take if it doesnt finish then most likely your client_id doesn't work
