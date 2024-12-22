@@ -122,7 +122,7 @@ def main():
             db_thread = Thread(target=db_worker, args=(db_queue,))
             db_thread.start()
 
-            with ThreadPoolExecutor(max_workers=10) as executor:
+            with ThreadPoolExecutor(max_workers=3) as executor:
                 future_to_follower = {executor.submit(process_follower, follower, client_id, db_queue): follower for follower in followers}
                 for future in as_completed(future_to_follower):
                     follower = future_to_follower[future]
